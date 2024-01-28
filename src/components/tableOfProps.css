@@ -1,7 +1,9 @@
-th, table, td {
+th,
+table,
+td {
   border: 1px solid black;
 }
-td{
-    padding: 10px;
-
+td,
+.OuterTables {
+  padding: 10px;
 }

@@ -1,5 +1,5 @@
 import "./tableOfProps.css";
-
+import InputData from "./inputData";
 function tableOfProps(props) {
   return (
     <table>
@@ -7,16 +7,8 @@ function tableOfProps(props) {
         <th>{props.titleOfHeader}</th>
       </tr>
       <tr>
-        <td>text text tesxt</td>
-      </tr>
-      <tr>
-        <td>text text tesxt</td>
-      </tr>
-      <tr>
-        <td>text text tesxt</td>
-      </tr>
-      <tr>
-        <td>text text tesxt</td>
+        {/* create a list for every one of the inputs */}
+        <InputData userInput={props.UserInputfromTheTop}></InputData>
       </tr>
     </table>
   );

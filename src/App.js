@@ -8,10 +8,7 @@ function App() {
       <div className="innerDiv">
         <InputBox></InputBox>
       </div>
-      <div className="OuterTables">
-        <TableOfPros titleOfHeader={"Pros"}></TableOfPros>
-        <TableOfPros titleOfHeader={"Cons"}></TableOfPros>
-      </div>
+
     </body>
   );
 }

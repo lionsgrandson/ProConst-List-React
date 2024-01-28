@@ -1,0 +1,12 @@
+
+body {
+  flex-direction: column;
+}
+.innerDiv, body, .OuterTables, .header{
+  justify-content: center;
+  display: flex;
+}
+
+.innerDiv{
+  margin-bottom: 10px;
+}
